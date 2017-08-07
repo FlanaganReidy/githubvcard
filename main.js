@@ -8,13 +8,13 @@ function populatePage() {
   let thebasics = `
   <div class = "theBasics">
   <h2>The Basics</h2>
-  <p>Name: ${person.name}
-  <br>Username : ${person.login}
-  <br>Email: reidy.pf@gmail.com
-  <br>Company: ${person.company}
-  <br>Website: <a href = '${person.html_url}'>${person.html_url}</a>
-  </p>
-
+  <dl class = "me">
+  <dt>Name:</dt> <dd>${person.name}</dd>
+  <dt>Username:</dt> <dd>${person.login}</dd>
+  <dt>Email:</dt> <dd>reidy.pf@gmail.com</dd>
+  <dt>Company:</dt> <dd>${person.company}</dd>
+  <dt>Website:</dt> <dd><a href = '${person.html_url}'>${person.html_url}</a></dd>
+  </dl>
   </div>
   <div class = "bio">
   <h2>The Story</h2>

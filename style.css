@@ -2,26 +2,39 @@
   display: flex;
   flex-wrap:wrap;
   padding: 120px;
+  background: grey;
 }
 .section{
   display:flex;
   flex-basis: 100%;
+  background: white;
+  flex-wrap: wrap;
+  justify-content: space-around;
 
 }
 img{
   border-radius: 600px;
   width: 150px;
   height: 150px;
+  margin-top: 75px;
 }
 .theBasics{
   width:30%;
+  padding-left: 10px;
+  padding-bottom: 10px;
+
+}
+.me{
+  border-right: solid 1px grey;
 }
 .bio{
-  width: 30%;
+  width: 50%;
+  padding-right:10px;
+
 }
 .titleCard{
   text-align: center;
   background-color: black;
   color:white;
-  flex-basis: 80%;
+  flex-basis: 100%;
 }
