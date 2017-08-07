@@ -1,15 +1,16 @@
 .container{
   display: flex;
   flex-wrap:wrap;
-  padding: 120px;
+  padding: 100px;
   background: grey;
 }
 .section{
   display:flex;
   flex-basis: 100%;
   background: white;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-around;
+  padding: 0 80px 80px 80px;
 
 }
 img{
